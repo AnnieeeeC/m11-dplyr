@@ -1,6 +1,8 @@
 # Exercise 7: DPLYR practice with NBA data
 
 # Read in the NBA player data into a variable called `team.data` using `read.csv`
+install.packages("dplyr")
+library(dplyr)
 
 # The data.frame team.data should now be accessible to you. 
 # View it, and get some basic information about the number of rows/columns. 
